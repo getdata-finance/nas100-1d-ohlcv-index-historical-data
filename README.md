@@ -1,6 +1,6 @@
 # NAS100 1d OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-5_470_rows-blue)](https://getdata.finance/datasets/nas100) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/nas100)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-5_472_rows-blue)](https://getdata.finance/datasets/nas100) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/nas100)
 
 ### -> [**Download the full NAS100 dataset on getdata.finance**](https://getdata.finance/datasets/nas100)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1d OHLCV** for **NASDAQ 100** (Index)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/nas100) · **5,470** `1d` rows in the full archive
+- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/nas100) · **5,472** `1d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1d` sample updated in sync
 
-> **Sample on GitHub** · `NAS100_1d.csv` (732 rows, `2024-05-03` -> `2026-09-09`, 63.00 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/nas100)** — **5,470** `1d` rows (full `1m`: 5,050,229), **11 timeframes**, `2009-01-02` -> `2026-09-09`.
+> **Sample on GitHub** · `NAS100_1d.csv` (732 rows, `2024-05-06` -> `2026-09-11`, 62.97 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/nas100)** — **5,472** `1d` rows (full `1m`: 5,050,229), **11 timeframes**, `2009-01-02` -> `2026-09-11`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | NASDAQ 100 · Index | NASDAQ 100 · Index |
 | Timeframes | `1d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1d rows | 732 | **5,470** |
-| Size | 63.00 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/nas100) |
-| Period | `2024-05-03` -> `2026-09-09` | `2009-01-02` -> `2026-09-09` |
+| 1d rows | 732 | **5,472** |
+| Size | 62.97 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/nas100) |
+| Period | `2024-05-06` -> `2026-09-11` | `2009-01-02` -> `2026-09-11` |
 | File | `NAS100_1d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/nas100) |
 | Coverage report | — | [NAS100 coverage](https://getdata.finance/coverage/nas100) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`NAS100_1d.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2024-05-03T00:00:00+00:00 | 17654.73 | 17945.3 | 17620.23 | 17925.05 | 830367 |
-| 2024-05-05T00:00:00+00:00 | 17925.05 | 17969.08 | 17906.33 | 17910.21 | 13940 |
 | 2024-05-06T00:00:00+00:00 | 17910.21 | 18106.96 | 17889.46 | 18089.53 | 471491 |
 | 2024-05-07T00:00:00+00:00 | 18089.53 | 18171.56 | 18056.53 | 18112.61 | 567360 |
 | 2024-05-08T00:00:00+00:00 | 18112.61 | 18150.63 | 17980.61 | 18070.63 | 515179 |
+| 2024-05-09T00:00:00+00:00 | 18070.63 | 18152.89 | 18013.25 | 18141.14 | 563283 |
+| 2024-05-10T00:00:00+00:00 | 18141.14 | 18257.29 | 18098.04 | 18151.89 | 535720 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-04T00:00:00+00:00 | 29464.77 | 29661.47 | 29429.67 | 29490.97 | 1573686 |
-| 2026-09-06T00:00:00+00:00 | 29490.97 | 29564.59 | 29490.97 | 29527.84 | 31198 |
-| 2026-09-07T00:00:00+00:00 | 29527.84 | 29652.72 | 29496.99 | 29556.61 | 653140 |
-| 2026-09-08T00:00:00+00:00 | 29556.61 | 29736.49 | 29397.89 | 29475.95 | 2106898 |
-| 2026-09-09T00:00:00+00:00 | 29475.95 | 29583.2 | 29475.2 | 29568.33 | 108204 |
+| 2026-09-07T00:00:00+00:00 | 29527.84 | 29652.84 | 29496.99 | 29556.61 | 658568 |
+| 2026-09-08T00:00:00+00:00 | 29556.61 | 29736.74 | 29397.51 | 29475.45 | 2231567 |
+| 2026-09-09T00:00:00+00:00 | 29475.45 | 29609.2 | 29308.33 | 29439.06 | 2108788 |
+| 2026-09-10T00:00:00+00:00 | 29439.06 | 29483.94 | 29019.31 | 29041.72 | 2453552 |
+| 2026-09-11T00:00:00+00:00 | 29041.72 | 29476.37 | 29018.59 | 29366.79 | 2168372 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **NAS100** archive on **[getdata.finance](https://getdata.finance/datasets/nas100)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **5,470** rows at `1d`, plus all other timeframes in the same ZIP.
+The complete **NAS100** archive on **[getdata.finance](https://getdata.finance/datasets/nas100)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **5,472** rows at `1d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full NAS100 dataset on getdata.finance](https://getdata.finance/datasets/nas100)**
 
